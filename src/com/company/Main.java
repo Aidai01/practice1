@@ -111,16 +111,15 @@ public class Main {
                     if (A[i] > Max){
                         Max = A[i];
                         nMax = i;
-                            System.out.println("A[" + nMax + "] = " + Max);
+                            System.out.println("Максимальный элемент: A[" + nMax + "] = " + Max);
                     }
                     int Min = A[0], nMin =0;
                     if (A[i] < Min){
                         Min = A[i];
                         nMin =i;
-                        System.out.println("A[" + nMin + "] = " + Min);
+                        System.out.println("Минимальный элемент: A[" + nMin + "] = " + Min);
                     }
                 }
-
 
             }
 
